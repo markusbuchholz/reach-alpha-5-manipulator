@@ -15,8 +15,6 @@ Additional useful references:
 * [Moveit 2 documentation](https://moveit.picknik.ai/main/index.html)
 
 
- 
-
 ## Build and Run
 
 #### Lauch robot in RViz
@@ -24,7 +22,7 @@ Additional useful references:
 ```bash
 mkdir -p alpha_ws/src
 cd alpha_ws/src
-git clone
+git clone https://github.com/markusbuchholz/reach-alpha-5-manipulator.git
 cd ..
 colcon build
 source install/setup.bash
@@ -41,7 +39,7 @@ ros2 run alpha_moveit joint_moveit
 
 #### You can run also ```joint_state_publisher-gui```
 
-First install,
+First, install.
 
 ```bash
 sudo apt install ros-humble-joint-state-publisher-gui

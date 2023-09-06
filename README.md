@@ -20,10 +20,8 @@ Additional useful references:
 #### Lauch robot in RViz
 
 ```bash
-mkdir -p alpha_ws/src
-cd alpha_ws/src
 git clone https://github.com/markusbuchholz/reach-alpha-5-manipulator.git
-cd ..
+cd reach-alpha-5-manipulator
 colcon build
 source install/setup.bash
 ros2 launch alpha_bringup planning_alpha5.launch.py

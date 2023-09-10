@@ -5,7 +5,8 @@
 This repository contains files to launch Reach Alpha 5 robot arm in RViz. 
 Additionally, it contains C++ file to run simple motion in ROS 2 on the path computed by Moveit.
 
-![image](https://github.com/markusbuchholz/reach-alpha-5-robot-arm/assets/30973337/0cbf0a7b-031a-4233-a0ad-9734cfa92645)
+![image](https://github.com/markusbuchholz/reach-alpha-5-manipulator/assets/30973337/aa14d79c-4e1a-420b-8c82-96f5178b78fa)
+
 
 
 The repository uses robot setup proposed [here](https://github.com/evan-palmer/alpha).
